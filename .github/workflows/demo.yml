@@ -17,6 +17,8 @@ jobs:
         run: npm test
 
       - name: running the app
-        run: npm run dev
+        run: |
+           npm run dev
+           echo "app is runing"
 
       
